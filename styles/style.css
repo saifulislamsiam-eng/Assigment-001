@@ -19,3 +19,157 @@
   justify-content: space-between;
   padding: 50px;
 }
+.users {
+  background-color: #f0f4ff;
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05)
+  
+}
+.stats {
+  display: flex;
+  justify-content: space-around;
+}
+.contact {
+  display: flex;
+  padding: 50px;
+  gap: 100px;
+  align-items: center;
+}
+
+
+button {
+  background-color: #3f51b5; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #cfde4f;
+  color: rgb(255, 255, 255);
+  transform: scale(1.05);
+  
+}
+.review-section {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.review-section h2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #333;
+}
+
+.review-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 280px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.stars {
+  color: gold;
+  margin-bottom: 10px;
+}
+
+.card h4 {
+  margin: 0 0 10px;
+  font-size: 16px;
+  color: #444;
+}
+
+.card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.reviewer {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.reviewer-details {
+  font-size: 13px;
+  color: #333;
+}
+
+footer {
+  text-align: center;
+  background: #dfdaef;
+  color: rgb(0, 0, 0);
+  padding: 30px;
+}
+ .background-logo{
+  background-image: url('/Assets/Hero-bg.png');
+  background-size: fill;
+  background-position: center;
+  
+}
+.links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin: 0 15px;
+  gap: 20px; 
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+h3 {
+  font-size: 2em;
+  color: #232c8e;
+  margin-bottom: 20px;
+}
+h1 {
+  color: #3f51b5;
+  size: 16px;
+}
+.sing-up {
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  height: 42px;             
+  margin: 0;                
+  box-sizing: border-box;  
+  align-self: center;      
+}
