@@ -128,10 +128,10 @@ footer {
   color: rgb(0, 0, 0);
   padding: 30px;
 }
- .background-logo{
-  background-image: url('/Assets/Hero-bg.png');
-  background-size: fill;
-  background-position: center;
+ /* .background-logo{ */
+  /* background-image: url('/Assets/Hero-bg.png'); */
+  /* background-size: fill; */
+  /* background-position: center; */
   
 }
 .links {
